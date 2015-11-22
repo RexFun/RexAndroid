@@ -1,0 +1,42 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <!--
+    <style name="My.Theme.AppCompat.NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:colorPrimary">@color/blue_light</item>
+        <item name="android:colorPrimaryDark">@color/blue_light_close</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+    -->
+    <!--
+    <style name="My.Theme.AppCompat.NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/blue_light</item>
+        <item name="colorPrimaryDark">@color/blue_light_close</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:colorControlHighlight">@color/blue_light</item>
+    </style>
+    -->
+    <style name="My.Theme.AppCompat.NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/blue_light</item>
+        <item name="colorPrimaryDark">@color/blue_light_close</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:colorControlHighlight">@color/blue_light</item>
+        <!-- 允许使用transitions -->
+        <item name="android:windowContentTransitions">true</item>
+        <!-- 指定进入、退出、返回、重新进入时的transitions -->
+        <item name="android:windowEnterTransition">@android:transition/explode</item>
+        <item name="android:windowExitTransition">@android:transition/explode</item>
+        <item name="android:windowReturnTransition">@android:transition/explode</item>
+        <item name="android:windowReenterTransition">@android:transition/explode</item>
+        <!-- 指定进入、退出、返回、重新进入时的共享transitions -->
+        <item name="android:windowSharedElementEnterTransition">@android:transition/explode</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/explode</item>
+        <item name="android:windowSharedElementReturnTransition">@android:transition/explode</item>
+        <item name="android:windowSharedElementReenterTransition">@android:transition/explode</item>
+    </style>
+
+</resources>
