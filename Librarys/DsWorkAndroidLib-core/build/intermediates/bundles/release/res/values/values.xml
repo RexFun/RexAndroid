@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/ole/Dev/ANDROID/Projs/Librarys/DsWorkAndroidLib-core/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="item_menu">
+        <item>修改</item>
+        <item>删除</item>
+    </string-array>
+    <!-- From: file:/Users/ole/Dev/ANDROID/Projs/Librarys/DsWorkAndroidLib-core/res/values/color.xml -->
+    <eat-comment/>
+    <color name="blue">#0000ff</color>
+    <color name="blue_light">#00dddd</color>
+    <color name="blue_light_close">#008888</color>
+    <color name="blue_light_open">#9900dddd</color>
+    <color name="blue_open">#990000ff</color>
+    <color name="gray">#dddddd</color>
+    <color name="gray_dark">#666666</color>
+    <color name="gray_dark_open">#99666666</color>
+    <color name="gray_open">#99dddddd</color>
+    <color name="green">#00db00</color>
+    <color name="green_open">#9900db00</color>
+    <color name="open">#99000000</color>
+    <color name="orange">#ff8000</color>
+    <color name="red">#ff0000</color>
+    <color name="red_open">#99ff0000</color>
+    <color name="white">#ffffff</color>
+    <color name="white_open">#99ffffff</color>
+    <color name="yellow">#ffff33</color>
+    <!-- From: file:/Users/ole/Dev/ANDROID/Projs/Librarys/DsWorkAndroidLib-core/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_list_footer_loading">加载中</string>
+    <string name="app_list_footer_more">更多</string>
+    <string name="app_list_header_refresh_last_update">刷新</string>
+    <string name="app_name">DsWorkAndroidLib_core</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">删除</string>
+    <string name="confirm_del">确定删除吗？</string>
+    <string name="confirm_upd">确定批量修改吗？</string>
+    <string name="footer_clickToRefresh">数据全部加载完毕，点击此处刷新</string>
+    <string name="footer_loading">加载中...</string>
+    <string name="footer_more">↑  更多</string>
+    <string name="item_menu_title">操作</string>
+    <string name="no">否</string>
+    <string name="yes">是</string>
+    <!-- From: file:/Users/ole/Dev/ANDROID/Projs/Librarys/DsWorkAndroidLib-core/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
