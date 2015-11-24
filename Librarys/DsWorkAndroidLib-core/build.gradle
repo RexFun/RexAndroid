@@ -2,9 +2,9 @@ apply plugin: 'android-library'
 
 dependencies {
     compile 'com.android.support:appcompat-v7:22.1.1'
-    compile files('/Users/ole/DevComm/Projects/SourceCodes/Android/DevProject/Lib/tool/commons-beanutils-core-1.8.3.jar')
-    compile files('/Users/ole/DevComm/Projects/SourceCodes/Android/DevProject/Lib/tool/volley.jar')
-    compile files('/Users/ole/DevComm/Projects/SourceCodes/Android/DevProject/Lib/tool/pinyin4j-2.5.0.jar')
+    compile files(':Jars/tool/commons-beanutils-core-1.8.3.jar')
+    compile files(':Jars/tool/volley.jar')
+    compile files(':Jars/tool/pinyin4j-2.5.0.jar')
 }
 
 android {
